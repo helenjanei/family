@@ -15,9 +15,13 @@ class CludoBoard extends React.Component {
 <Link rel="stylesheet" to="/kitchen" className="kitchen-link">
   <a className="kitchen-target" href="" title="" ></a>
   </Link>
-   <a href="" title="Dance the night away!" className="ballroom-target"></a>
-   <a href="" className="library-target"></a>
 
+   <a href="" title="Dance the night away!" className="ballroom-target"></a>
+   
+   <Link rel="stylesheet" to="/library" className="library-link">
+  <a className="library-target" href="" title="" ></a>
+  </Link>
+  
     </div>
    )  
 }
