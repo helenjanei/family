@@ -16,7 +16,7 @@ class App extends Component {
     
     return (
         <Router>
-          <CludoBoard path="/home" />
+          <CludoBoard path="/" />
           <Kitchen path="/kitchen" />
           <Recipe path="/recipe-finder" />
          <Library path="/library" />

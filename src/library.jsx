@@ -1,6 +1,7 @@
 import React from 'react';
 import Librarypic from './Classic-Home-Library-Design-Round-Stair.png'
 import { Router, Link } from "@reach/router"
+import './App.css'
 
 class Kitchen extends React.Component {
   render() {

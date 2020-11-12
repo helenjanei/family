@@ -1,7 +1,4 @@
-.App {
-  min-height: 100vh;
-  
-}
+
 
 .cludoBoard {
   display: flex;
@@ -50,12 +47,9 @@ z-index: 2;
 
 .kitchen-image{
 
-  width: 100%;
-  height: 100%;
-  border: none;
+width:90%;
+height:auto;
 
-
-  z-index: 1;
 }
 
 .recipe-target {
@@ -130,27 +124,34 @@ z-index: 2;
   z-index: 2;
 }
 
-.audio-div {
-  font-family: Open Sans;
-   text-align: center;
+.music-master {
+   
+   text-align: "center";
    padding: 30px;
    margin: 20px;
-    margin: 0;
-    padding: 0;
+   
     
 }
-.ui-card-main-container {
-   margin: 0 auto;
-   color: #fff;
-     background: linear-gradient(to right,
-     #4b1248,
-     #f0c27b);
+.ui .card .main-container {
+  margin: 0 auto;
+  color: #fff;
+  background: linear-gradient(to right,
+      #4b1248,
+      #f0c27b);
 }
+
 .music-content {
-  width: 60vw;
-  font-size: 18px;
-  text-align: center;
-  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgb(87, 84, 84);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: white;
+  align-items: center;
+  height: 80vh;
+  width: 80vh;
+  min-width: 40%;
 }
 
 .content:hover {
@@ -163,9 +164,7 @@ z-index: 2;
   color: #000;
 }
 
-.header {
-  text-align: center;
-}
+
 
 .info-container {
   text-align: center;

@@ -1,9 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
 import "./App.css";
-import ChapterOne from "./Audio files/Chapter One.mp3"
 
-const goeasy = ChapterOne;
+const goeasy = "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3";
 const dreams = "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3";
 
 const chillout =
@@ -64,10 +62,10 @@ class Audiobooks extends React.Component {
       }
     ].map(item => {
       return (
-        <div class="ui-list">
+        <div class="ui list">
           <div class="item">
             <img class="ui avatar image" src={item.url} alt="music images" />
-            <div className="music-content">
+            <div class="content">
               <li
                 className="title"
                 key={item.id}
@@ -84,8 +82,8 @@ class Audiobooks extends React.Component {
     return (
       <>
         <h1 className="header">React Music Player</h1>
-        <div className="audio-div">
-          <div className="ui-card-main-container">
+        <div className="music-master">
+          <div className="ui card main-container">
             <div className="info-container">
               {this.state.music === "playing" ? (
                 <div className="current-song">
@@ -118,7 +116,7 @@ class Audiobooks extends React.Component {
               )}
               {this.state.music === "playing" && (
                 <button
-                  className="ui-labeled-icon-red button"
+                  class="ui labeled icon red button"
                   onClick={() => this.setState({ music: "paused" })}
                 >
                   <i class="large pause circle outline icon" />
@@ -208,10 +206,5 @@ class Audiobooks extends React.Component {
     this.music.removeEventListener("timeupdate", () => {});
   }
 }
-
-  
-
-
-
 
 export default Audiobooks

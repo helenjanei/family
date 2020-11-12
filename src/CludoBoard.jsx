@@ -2,7 +2,7 @@ import React from 'react';
 import Board from './cludoBoard.png'
 import { Router, Link } from "@reach/router"
 import Kitchen from './kitchen'
-
+import './App.css'
 
 
 class CludoBoard extends React.Component {
